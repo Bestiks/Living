@@ -42,6 +42,30 @@ img {
   padding: 0 20px;
 }
 
+.btn--apartment {
+  background-color: #4A90E2;
+  color: #ffffff;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 30px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 6px rgba(74, 144, 226, 0.2);
+}
+
+.btn--apartment:hover {
+  background-color: #3A7BC8;
+  transform: translateY(-2px);
+  box-shadow: 0 6px 8px rgba(74, 144, 226, 0.3);
+}
+
+.btn--apartment:active {
+  transform: translateY(0);
+  box-shadow: 0 2px 4px rgba(74, 144, 226, 0.2);
+}
+
 .btn {
   display: inline-block;
   padding: 1rem 2rem;
